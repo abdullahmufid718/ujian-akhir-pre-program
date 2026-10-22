@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Registrasi</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body class="body">
+    <h1 class="h1">Formulir Pendaftaran</h1>
+
+    <form action="/proses-daftar" method="POST">
+      <!-- Informasi Pribadi -->
+      <fieldset>
+        <legend style="float: right"></legend>
+        <h2>Informasi Pribadi</h2>
+
+        <label class="nama" for="nama">Nama Lengkap:</label><br />
+        <input
+          class="label"
+          type="text"
+          id="nama"
+          name="nama"
+          placeholder="Contoh: Budi Santoso"
+          required
+        /><br /><br />
+
+        <label class="nama" for="email">Alamat Email:</label><br />
+        <input
+          class="label"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="nama@contoh.com"
+          required
+        /><br /><br />
+
+        <label class="nama" for="telepon">Nomor Telepon:</label><br />
+        <input
+          class="label"
+          type="tel"
+          id="telepon"
+          name="telepon"
+          placeholder="+628329949427"
+        /><br /><br />
+
+        <label for="tgl-lahir">Tanggal Lahir:</label><br />
+        <input type="date" id="tgl-lahir" name="tgl-lahir" /><br /><br />
+
+        <label for="kode pos">Kode Pos:</label><br />
+        <input
+          type="number"
+          id="kode pos"
+          name="kode pos"
+          placeholder="17771"
+        /><br /><br />
+
+        <p>Jenis Kelamin:</p>
+        <label
+          ><input type="radio" name="jenis-kelamin" value="laki-laki" />
+          Laki-laki</label
+        >
+        <label
+          ><input type="radio" name="jenis-kelamin" value="perempuan" />
+          Perempuan</label
+        >
+        <br /><br />
+
+        <!-- Akun -->
+        <h2 class="h2">Data Akun</h2>
+
+        <label class="nama" for="password">Password:</label><br />
+        <input
+          class="label"
+          type="password"
+          id="password"
+          name="password"
+          required
+        /><br /><br />
+
+        <label for="kota">Kota Domisili:</label><br />
+        <select id="kota" name="kota">
+          <option value="">-- Pilih Kota --</option>
+          <option value="jakarta">Jakarta</option>
+          <option value="bandung">Bandung</option>
+          <option value="yogyakarta">Yogyakarta</option>
+          <option value="bogor">Bogor</option>
+          <option value="tegal">Tegal</option></select
+        ><br /><br />
+
+        <!-- Minat -->
+        <p>Minat (boleh pilih lebih dari satu):</p>
+        <label
+          ><input type="checkbox" name="minat" value="desain" /> Desain</label
+        >
+        <label
+          ><input type="checkbox" name="minat" value="coding" /> Coding</label
+        >
+        <label
+          ><input type="checkbox" name="minat" value="bisnis" /> Bisnis</label
+        >
+        <br /><br />
+
+        <label for="bio">Bio Singkat:</label><br />
+        <textarea
+          id="bio"
+          name="bio"
+          rows="4"
+          placeholder="Ceritakan sedikit tentang diri Anda..."
+        ></textarea>
+        <br /><br />
+
+        <!-- Persetujuan -->
+        <label>
+          <input type="checkbox" name="setuju" required />
+          Saya menyetujui <a href="/syarat-ketentuan">Syarat & Ketentuan</a>
+        </label>
+        <br /><br />
+
+        <input class="submit" type="submit" value="Kirim" />
+      </fieldset>
+    </form>
+  </body>
+</html>

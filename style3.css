@@ -1,0 +1,48 @@
+.table:nth-child(even) {
+    border-collapse: collapse; 
+    
+}
+
+.baris:hover {
+    background-color:aqua
+}
+
+.baris2:hover {
+    background-color: aqua;
+}
+
+.baris3:hover {
+    background-color:aqua
+}
+
+.baris4:hover {
+    background-color: aqua;
+}
+
+.baris5:hover {
+    background-color:aqua
+}
+
+.baris6:hover {
+    background-color: aqua;
+}
+
+.baris7:hover {
+    background-color:aqua
+}
+
+.baris8:hover {
+    background-color: aqua;
+}
+
+.baris9:hover {
+    background-color:aqua
+}
+
+.baris10:hover {
+    background-color: aqua;
+}
+
+.baris11:hover {
+    background-color:aqua
+}

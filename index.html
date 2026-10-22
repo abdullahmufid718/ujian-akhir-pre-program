@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tempat makanan yang menyediakan berbagai jenis makanan"
+    />
+    <meta name="keywords" content="Berbagai jenis makanan" />
+    <meta name="author" content="Mak Jenin" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Warung Makan Sederhana</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <i class="fa-solid fa-house"></i> Warung Makan Sederhana
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#home"><i class="fa-solid fa-house"></i> Beranda</a>
+          </li>
+          <li>
+            <a href="#produk"><i class="fa-solid fa-cookie-bite"></i> Produk</a>
+          </li>
+          <li>
+            <a href="#tentang"
+              ><i class="fa-solid fa-info-circle"></i> Tentang</a
+            >
+          </li>
+          <li>
+            <a href="#kontak"><i class="fa-solid fa-envelope"></i> Kontak</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- --- Hero Section (Parallax) --- -->
+      <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Warung Makan Sederhana</h1>
+          <p class="hero-subtitle">Dibuat dengan cinta dan bahan terbaik</p>
+          <a href="#produk" class="cta-button"
+            >Lihat Produk <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- --- Kartu Produk --- -->
+      <section id="produk" class="products-section">
+        <h2 class="section-title">Produk Unggulan</h2>
+        <div class="products-container">
+          <article class="product-card">
+            <img
+              src="gambar rd.jpg"
+              alt="Rendang Sapi Daging Empuk"
+              width="300"
+            />
+            <h3>Rendang sapi</h3>
+            <p>
+              Daging sapi pilihan yang dimasak dengan
+              <strong>rempah-rempah tradisional</strong>
+              selama 8 jam..
+            </p>
+            <p class="price">Rp <span class="promo">20.000</span></p>
+            <button class="btn-order">
+              <i class="fa-solid fa-cart-shopping"></i> Pesan
+            </button>
+          </article>
+
+          <article class="product-card">
+            <img
+              src="gambar ayam.jpg"
+              alt="Ayam Bakar Bumbu Taliwang"
+              width="300"
+            />
+            <h3>Ayam Bakar</h3>
+            <p>Ayam kampung <strong>pedas gurih</strong></p>
+            <p class="price">Rp <span class="promo">25.000</span></p>
+            <button class="btn-order">
+              <i class="fa-solid fa-cart-shopping"></i> Pesan
+            </button>
+          </article>
+
+          <article class="product-card">
+            <img
+              src="gambar st.jpg"
+              alt="Soto Ayam Lamongan Koya"
+              width="300"
+            />
+            <h3>Soto Ayam Lamongan</h3>
+            <p>
+              Kuah kuning yang kaya akan rempah - rempah dengan
+              <strong>taburan koya</strong>
+              renyah dan telur rebus.
+            </p>
+            <p class="price">Rp <span class="promo">18.000</span></p>
+            <button class="btn-order">
+              <i class="fa-solid fa-cart-shopping"></i> Pesan
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>Warung Makan Sederhana</h3>
+            <p>Melestarikan cita rasa tradisional Indonesia</p>
+          </div>
+          <div class="footer-section">
+            <h4>Jam Operasional</h4>
+            <ul class="footer-list">
+              <li>Senin - Jumat: 10.00 - 22.00</li>
+              <li>Sabtu - Minggu: 09.00 - 23.00</li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Ikuti Kami</h4>
+            <div class="social-links">
+              <a
+                href="https://www.instagram.com/warungmakan.bhs?stkn=MTFjaXF3NGV0NnkxOA=="
+                class="social-link"
+                ><i class="fa-brands fa-instagram"></i> Instagram</a
+              >
+              <a href="https://wa.me/628538541854" class="social-link"
+                ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2027 Warung Makan Bahagia. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
